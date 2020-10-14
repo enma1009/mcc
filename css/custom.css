@@ -1,0 +1,23 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+/* Gradient backgrounds */
+
+.gradient-jai-alai-green {
+	background: rgb(21,71,51);
+	background: linear-gradient(0deg, rgba(21,71,51,1) 0%, rgba(25,116,56,1) 69%);
+}
+
+/* Font colors */
+
+.dark-green {
+	color: #154733 !important;
+}
+
+.mid-green {
+	color: #007500 !important;
+}

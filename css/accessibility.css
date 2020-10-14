@@ -1,0 +1,24 @@
+a:focus,
+footer a:focus {
+    /* Provide a fallback style for browsers
+       that don't support :focus-visible */
+    text-decoration: underline;
+}
+  
+:focus:not(:focus-visible) {
+/* Remove the focus indicator on mouse-focus for browsers
+    that do support :focus-visible */
+    border: none;
+    text-decoration: none;
+}
+
+a:focus-visible,
+footer a:focus-visible {
+/* Draw a very noticeable focus style for
+    keyboard-focus on browsers that do support
+    :focus-visible */ 
+    text-decoration: underline;
+}
+
+
+  

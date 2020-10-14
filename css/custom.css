@@ -13,11 +13,43 @@
 }
 
 /* Font colors */
-
 .dark-green {
 	color: #154733 !important;
 }
 
 .mid-green {
 	color: #007500 !important;
+}
+
+/* Custom decorative elements */
+.mcc-circle {
+	height: 200px;
+	width: 200px;
+	/* background-image: url('../images/logo/mcc-tree-white.svg'); */
+	background-image: url('../images/logo/mcc-tree-red.svg');
+	background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+	border: 10px solid #E4002B;
+	/* background-color: #E4002B; */
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.red-border-bottom {
+	border-bottom: 10px solid #E4002B;
+}
+
+.white-border-bottom {
+	border-bottom: 10px solid #fff;
+}
+
+/* background colors */
+
+.bgrd-main-red {
+	background-color: #E4002B;
+}
+
+.bgrd-main-dotted {
+	background: url('../images/patterns/dots-texture-circle-darkred.svg') center center/cover no-repeat #E4002B;
 }

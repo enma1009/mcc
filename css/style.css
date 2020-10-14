@@ -8941,15 +8941,15 @@ body:not(.device-touch) .button.button-full strong {
 /* Buttons - Colors
 -----------------------------------------------------------------*/
 
-.button-red { background-color: #C02942; }
+.button-red { background-color: #AF0202; }
 .button-3d.button-red:hover,
 .button-reveal.button-red:hover,
 .button-border.button-red:hover,
-.button-border.button-red.button-fill::before { background-color: #C02942 !important; }
+.button-border.button-red.button-fill::before { background-color: #AF0202 !important; }
 
 .button-border.button-red {
-	color: #C02942;
-	border-color: #C02942;
+	color: #AF0202;
+	border-color: #AF0202;
 }
 
 .button-teal { background-color: #53777A; }
@@ -9273,9 +9273,9 @@ body:not(.device-touch) .button.button-full strong {
 }
 
 .fbox-content h3 {
-	font-size: 1rem;
+	/* font-size: 1rem; */
 	font-weight: 600;
-	font-family: 'Poppins', sans-serif;
+	/* font-family: 'Poppins', sans-serif; */
 	text-transform: uppercase;
 	margin-bottom: 0;
 	color: #333;
@@ -9541,11 +9541,13 @@ body:not(.device-touch) .button.button-full strong {
 }
 
 .fbox-content h3 span.subtitle {
+	font-size: 1rem;
 	display: block;
 	margin-top: 5px;
 	color: #444;
 	font-weight: 300;
 	text-transform: none;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .fbox-center.fbox-sep:not(.fbox-bg) h3::after {

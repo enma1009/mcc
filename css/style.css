@@ -286,7 +286,7 @@ small {
 	clear: both;
 	position: relative;
 	width: 100%;
-	margin: 4rem 0;
+	margin: 2rem 0;
 	border-top: 1px solid #EEE;
 }
 
@@ -13569,11 +13569,11 @@ body:not(.device-touch) #gotoTop {
 
 #footer .footer-widgets-wrap {
 	position: relative;
-	padding: 80px 0;
+	padding: 20px 0;
 }
 
 #copyrights {
-	padding: 40px 0;
+	padding: 10px 0;
 	background-color: #DDD;
 	font-size: 0.875rem;
 	line-height: 1.8;
@@ -13600,7 +13600,7 @@ body:not(.device-touch) #gotoTop {
 	border-bottom: 1px solid #666;
 }
 
-.copyrights-menu { margin-bottom: 10px; }
+/* .copyrights-menu { margin-bottom: 10px; } */
 
 .copyrights-menu a {
 	font-size: 0.875rem;

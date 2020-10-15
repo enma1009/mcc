@@ -23,25 +23,42 @@
 
 /* Custom decorative elements */
 .mcc-circle {
-	height: 200px;
-	width: 200px;
+	height: 100px;
+	width: 100px;
 	/* background-image: url('../images/logo/mcc-tree-white.svg'); */
 	background-image: url('../images/logo/mcc-tree-red.svg');
-	background-size: 90px;
+	background-size: 45px;
     background-repeat: no-repeat;
     background-position: center;
-	border: 10px solid #E4002B;
+	border: 5px solid #E4002B;
 	/* background-color: #E4002B; */
 	border-radius: 50%;
 	display: inline-block;
 }
 
+.mcc-circle-fullcolor {
+	height: 200px;
+	width: 200px;
+	/* background-image: url('../images/logo/mcc-tree-white.svg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+	background: rgb(94,0,0);
+	background: linear-gradient(0deg, rgba(94,0,0,1) 15%, rgba(228,0,43,1) 84%);
+	/* background-color: #E4002B; */
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
 .red-border-bottom {
-	border-bottom: 10px solid #E4002B;
+	border-bottom: 5px solid #E4002B;
 }
 
 .white-border-bottom {
-	border-bottom: 10px solid #fff;
+	border-bottom: 5px solid #fff;
 }
 
 /* background colors */
@@ -52,4 +69,10 @@
 
 .bgrd-main-dotted {
 	background: url('../images/patterns/dots-texture-circle-darkred.svg') center center/cover no-repeat #E4002B;
+}
+
+/* Font styles */
+.footer-big-contacts span {
+	text-transform: uppercase;
+	font-size: .8rem;
 }

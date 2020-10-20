@@ -11,6 +11,10 @@
 	background: rgb(21,71,51);
 	background: linear-gradient(0deg, rgba(21,71,51,1) 0%, rgba(25,116,56,1) 69%);
 }
+.dark-section-mcc {
+	background: rgb(7,37,54);
+	background: linear-gradient(0deg, rgba(7,37,54,1) 15%, rgba(4,21,31,1) 84%);
+}
 
 /* Font colors */
 .dark-green {
@@ -19,6 +23,10 @@
 
 .mid-green {
 	color: #007500 !important;
+}
+
+.white-font {
+	color: #fff !important;
 }
 
 /* Custom decorative elements */
@@ -75,4 +83,19 @@
 .footer-big-contacts span {
 	text-transform: uppercase;
 	font-size: .8rem;
+}
+.hours-and-phone {
+	font-size: .8rem;
+}
+
+.breadcrumb-footer {
+    background-color: transparent !important;
+    padding: 0 !important;
+    font-size: 90%;
+}
+
+/* Font families */
+
+.open-sans {
+	font-family: 'Open Sans', sans-serif;
 }

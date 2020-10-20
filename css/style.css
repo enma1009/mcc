@@ -1150,43 +1150,43 @@ a.h-text-dark:hover {
 -----------------------------------------------------------------*/
 
 .z-1 {
-	z-index: 1;
+	z-index: 1 !important;
 }
 
 .z-2 {
-	z-index: 2;
+	z-index: 2 !important;
 }
 
 .z-3 {
-	z-index: 3;
+	z-index: 3 !important;
 }
 
 .z-4 {
-	z-index: 4;
+	z-index: 4 !important;
 }
 
 .z-5 {
-	z-index: 5;
+	z-index: 5 !important;
 }
 
 .z-6 {
-	z-index: 6;
+	z-index: 6 !important;
 }
 
 .z-7 {
-	z-index: 7;
+	z-index: 7 !important;
 }
 
 .z-8 {
-	z-index: 8;
+	z-index: 8 !important;
 }
 
 .z-9 {
-	z-index: 9;
+	z-index: 9 !important;
 }
 
 .z-10 {
-	z-index: 10;
+	z-index: 10 !important;
 }
 
 
@@ -6342,16 +6342,16 @@ body:not(.has-plugin-html5video) .video-wrap video {
 }
 
 .breadcrumb {
-	position: absolute !important;
+	/* position: absolute !important; */
 	width: auto !important;
-	top: 50% !important;
-	left: auto !important;
-	right: 15px !important;
-	margin: 0 !important;
+	/* top: 50% !important; */
+	/* left: auto !important; */
+	/* right: 15px !important; */
+	/* margin: 0 !important; */
 	background-color: transparent !important;
 	padding: 0 !important;
 	font-size: 90%;
-	transform: translateY(-50%);
+	/* transform: translateY(-50%); */
 }
 
 .transparent-header + .page-title-parallax .breadcrumb { margin-top: 35px !important; }
@@ -13573,10 +13573,11 @@ body:not(.device-touch) #gotoTop {
 }
 
 #copyrights {
-	padding: 10px 0;
-	background-color: #DDD;
-	font-size: 0.875rem;
+	padding: 8px 0;
+	background-color: #000;
+	font-size: 0.8rem;
 	line-height: 1.8;
+	color: #999;
 }
 
 #copyrights i.footer-icon {
@@ -13590,21 +13591,21 @@ body:not(.device-touch) #gotoTop {
 
 .copyright-links a {
 	display: inline-block;
-	margin: 0 3px;
-	color: #333;
+	/* margin: 0 3px; */
+	color: #999;
 	border-bottom: 1px dotted #444;
 }
 
 .copyright-links a:hover {
-	color: #555;
+	color: #E4002B;
 	border-bottom: 1px solid #666;
 }
 
 /* .copyrights-menu { margin-bottom: 10px; } */
 
 .copyrights-menu a {
-	font-size: 0.875rem;
-	margin: 0 10px;
+	font-size: 0.8rem;
+	/* margin: 0 10px; */
 	border-bottom: 0 !important;
 }
 

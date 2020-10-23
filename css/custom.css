@@ -5,7 +5,7 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
-/* Gradient backgrounds */
+/* backgrounds */
 
 .gradient-jai-alai-green {
 	background: rgb(21,71,51);
@@ -15,18 +15,27 @@
 	background: rgb(7,37,54);
 	background: linear-gradient(0deg, rgba(7,37,54,1) 15%, rgba(4,21,31,1) 84%);
 }
+.dark-red {
+	background: rgb(175,2,2);
+	background: linear-gradient(0deg, rgba(175,2,2,1) 0%, rgba(94,0,17,1) 100%);
+}
+.dark-to-red {
+	background: rgb(175,2,2);
+	background: linear-gradient(0deg, rgba(175,2,2,1) 0%, rgba(4,21,31,1) 100%);
+}
 
 /* Font colors */
 .dark-green {
 	color: #154733 !important;
 }
-
 .mid-green {
 	color: #007500 !important;
 }
-
 .white-font {
 	color: #fff !important;
+}
+.dark-gray {
+	color: #3B3B3B !important;
 }
 
 /* Custom decorative elements */
@@ -87,11 +96,16 @@
 .hours-and-phone {
 	font-size: .8rem;
 }
-
 .breadcrumb-footer {
     background-color: transparent !important;
     padding: 0 !important;
     font-size: 90%;
+}
+.grid-item {
+	font-size: .7rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #757575;
 }
 
 /* Font families */
@@ -99,3 +113,41 @@
 .open-sans {
 	font-family: 'Open Sans', sans-serif;
 }
+
+.casino-promos {
+	background-image: url('../images/patterns/palm-fronds.svg'), url('../images/patterns/palm-fronds-right.svg');
+	background-position: top left, top right;
+	background-repeat: no-repeat;
+	background-size: 25% auto;
+	/* background-color: rgb(94,0,0); */
+	/* background-color: rgba(94,0,0,1); */
+	
+}
+/* .casino-promos h2,
+.casino-promos span {
+	color: #fff !important;
+} */
+
+#todays-date {
+	color: #000;
+	font-weight: bold;
+}
+
+.dotted-bg::before {
+	content: "";
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 35%;
+	width: 110%;
+	height: 120%;
+	background-size: 12px 12px;
+	background-position: center;
+	transform: translate(-50%, -50%);
+	background-image: radial-gradient(#e4002b 14%, transparent 14%);
+	-webkit-mask-image: radial-gradient(rgba(0,0,0,1),rgba(0,0,0,0) 75%);
+	mask-image: radial-gradient(rgba(0,0,0,1),rgba(0,0,0,0) 75%);
+	z-index: 0;
+}
+
+.dotted-bg::before { background-image: radial-gradient(rgba(255, 255, 255, 0.2) 14%, transparent 14%); }

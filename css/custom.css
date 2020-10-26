@@ -23,6 +23,10 @@
 	background: rgb(175,2,2);
 	background: linear-gradient(0deg, rgba(175,2,2,1) 0%, rgba(4,21,31,1) 100%);
 }
+.red-fade-to-white {
+	background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 4%, rgba(228,0,43,1) 30%, rgba(94,0,17,1) 69%, rgba(42,0,8,1) 92%);
+}
 
 /* Font colors */
 .dark-green {

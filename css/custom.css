@@ -1,12 +1,31 @@
 /* ----------------------------------------------------------------
 	Custom CSS
-
-	Add all your Custom Styled CSS here for New Styles or
-	Overwriting Default Theme Styles for Better Handling Updates
+	Author: Enid Soto (esoto@magiccitycasino.com)
 -----------------------------------------------------------------*/
 
-/* backgrounds */
+/* Font families */
+.open-sans {
+	font-family: 'Open Sans', sans-serif;
+}
 
+/* Font colors */
+.dark-green {
+	color: #154733 !important;
+}
+.mid-green {
+	color: #007500 !important;
+}
+.white-font {
+	color: #fff !important;
+}
+.dark-gray {
+	color: #3B3B3B !important;
+}
+.mcc-red {
+	color: #E4002B !important;
+}
+
+/* backgrounds */
 .gradient-jai-alai-green {
 	background: rgb(21,71,51);
 	background: linear-gradient(0deg, rgba(21,71,51,1) 0%, rgba(25,116,56,1) 69%);
@@ -27,22 +46,67 @@
 	background: rgb(255,255,255);
 background: linear-gradient(0deg, rgba(255,255,255,1) 4%, rgba(228,0,43,1) 30%, rgba(94,0,17,1) 69%, rgba(42,0,8,1) 92%);
 }
+.dark-gray-gradient {
+	background: rgb(54,54,54);
+	background: linear-gradient(0deg, rgba(54,54,54,1) 0%, rgba(14,14,14,1) 100%);
+}
+.indigo-blue-gradient {
+	background: rgb(13,26,129);
+	background: linear-gradient(0deg, rgba(13,26,129,1) 0%, rgba(1,1,14,1) 100%);
+}
+.bgrd-main-red {
+	background-color: #E4002B;
+}
+.bgrd-main-dotted {
+	background: url('../images/patterns/dots-texture-circle-darkred.svg') center center/cover no-repeat #E4002B;
+}
+.dotted-bg::before {
+	content: "";
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 35%;
+	width: 110%;
+	height: 120%;
+	background-size: 12px 12px;
+	background-position: center;
+	transform: translate(-50%, -50%);
+	/* background-image: radial-gradient(#e4002b 14%, transparent 14%); */
+	background-image: radial-gradient(rgba(255, 255, 255, 0.2) 14%, transparent 14%);
+	-webkit-mask-image: radial-gradient(rgba(0,0,0,1),rgba(0,0,0,0) 75%);
+	mask-image: radial-gradient(rgba(0,0,0,1),rgba(0,0,0,0) 75%);
+	z-index: 0;
+}
 
-/* Font colors */
-.dark-green {
-	color: #154733 !important;
+/* Reusable styles */
+.red-border-bottom {
+	border-bottom: 5px solid #E4002B;
 }
-.mid-green {
-	color: #007500 !important;
+.white-border-bottom {
+	border-bottom: 5px solid #fff;
 }
-.white-font {
-	color: #fff !important;
-}
-.dark-gray {
-	color: #3B3B3B !important;
+.grid-item {
+	font-size: .7rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #757575;
 }
 
-/* Custom decorative elements */
+/* Footer styles */
+.footer-big-contacts span {
+	text-transform: uppercase;
+	font-size: .8rem;
+}
+.hours-and-phone {
+	font-size: .8rem;
+}
+.breadcrumb-footer {
+    background-color: transparent !important;
+    padding: 0 !important;
+    font-size: 90%;
+}
+
+/* Homepage styles */
 .mcc-circle {
 	height: 100px;
 	width: 100px;
@@ -56,102 +120,42 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 4%, rgba(228,0,43,1) 30%, 
 	border-radius: 50%;
 	display: inline-block;
 }
-
-.mcc-circle-fullcolor {
-	height: 200px;
-	width: 200px;
-	/* background-image: url('../images/logo/mcc-tree-white.svg'); */
-    background-repeat: no-repeat;
-    background-position: center;
-	background: rgb(94,0,0);
-	background: linear-gradient(0deg, rgba(94,0,0,1) 15%, rgba(228,0,43,1) 84%);
-	/* background-color: #E4002B; */
-	border-radius: 50%;
-	display: inline-block;
-}
-
 .circle {
 	border-radius: 50%;
 }
 
-.red-border-bottom {
-	border-bottom: 5px solid #E4002B;
-}
-
-.white-border-bottom {
-	border-bottom: 5px solid #fff;
-}
-
-/* background colors */
-
-.bgrd-main-red {
-	background-color: #E4002B;
-}
-
-.bgrd-main-dotted {
-	background: url('../images/patterns/dots-texture-circle-darkred.svg') center center/cover no-repeat #E4002B;
-}
-
-/* Font styles */
-.footer-big-contacts span {
-	text-transform: uppercase;
-	font-size: .8rem;
-}
-.hours-and-phone {
-	font-size: .8rem;
-}
-.breadcrumb-footer {
-    background-color: transparent !important;
-    padding: 0 !important;
-    font-size: 90%;
-}
-.grid-item {
-	font-size: .7rem;
-	text-transform: uppercase;
-	font-weight: bold;
-	color: #757575;
-}
-
-/* Font families */
-
-.open-sans {
-	font-family: 'Open Sans', sans-serif;
-}
-
+/* Casino styles */
 .casino-promos {
 	background-image: url('../images/patterns/palm-fronds.svg'), url('../images/patterns/palm-fronds-right.svg');
 	background-position: top left, top right;
 	background-repeat: no-repeat;
 	background-size: 25% auto;
-	/* background-color: rgb(94,0,0); */
-	/* background-color: rgba(94,0,0,1); */
-	
 }
-/* .casino-promos h2,
-.casino-promos span {
-	color: #fff !important;
-} */
-
 #todays-date {
 	color: #000;
 	font-weight: bold;
 }
 
-.dotted-bg::before {
-	content: "";
-	position: absolute;
-	display: block;
-	top: 50%;
-	left: 35%;
-	width: 110%;
-	height: 120%;
-	background-size: 12px 12px;
-	background-position: center;
-	transform: translate(-50%, -50%);
-	background-image: radial-gradient(#e4002b 14%, transparent 14%);
-	-webkit-mask-image: radial-gradient(rgba(0,0,0,1),rgba(0,0,0,0) 75%);
-	mask-image: radial-gradient(rgba(0,0,0,1),rgba(0,0,0,0) 75%);
-	z-index: 0;
+/* Players Club styles */
+.free-play-title {
+	padding: 15px;
+	text-transform: uppercase;
 }
-
-.dotted-bg::before { background-image: radial-gradient(rgba(255, 255, 255, 0.2) 14%, transparent 14%); }
+.free-play-date {
+	font-size: 1rem;
+}
+.free-play-amount {
+	font-size: 3rem;
+}
+.illusionist {
+	background-color: #ffc933;	
+}
+.wizard {
+	background-color: #ab5cff;
+}
+.border-wizard {
+	border-color: #ab5cff !important;
+}
+.oracle {
+	background-color: #00b1ff;
+}

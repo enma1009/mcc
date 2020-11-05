@@ -530,7 +530,6 @@ span.middot {
 	overflow: visible !important;
 }
 
-
 /* ----------------------------------------------------------------
 	Opacity Utility Classes
 -----------------------------------------------------------------*/
@@ -594,7 +593,6 @@ span.middot {
 .h-op-1:hover {
 	opacity: 1 !important;
 }
-
 
 /* ----------------------------------------------------------------
 	Text Color Utility Classes
